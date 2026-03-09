@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MySkillSwapNow</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="overlay" class="overlay">
+    <div class="sheet">
+      <div class="badge">Before you use MySkillSwapNow</div>
+      <h1>Community Rules & Agreement</h1>
+      <p class="lead">Please review these important points before entering the app.</p>
+
+      <div class="card-list">
+        <div class="card">
+          <h3>1. The app connects people only</h3>
+          <p>MySkillSwapNow is a marketplace that connects users for voluntary skill, equipment, and help exchanges. The app is not a party to agreements between users and does not guarantee performance.</p>
+        </div>
+
+        <div class="card">
+          <h3>2. Users are responsible for their own deal</h3>
+          <p>When two users agree to a request, swap, or credit exchange, those users are responsible for fulfilling the deal terms, timing, safety, and communication.</p>
+        </div>
+
+        <div class="card">
+          <h3>3. Use credits, confirmation, and ratings</h3>
+          <p>To reduce disputes, exchanges should use skill credits, completion confirmation, and post-trade ratings whenever possible.</p>
+        </div>
+
+        <div class="card">
+          <h3>4. Report non-performance or misconduct</h3>
+          <p>If a user does not show up, fails to complete agreed work, or behaves inappropriately, use the dispute and reporting tools inside the app.</p>
+        </div>
+
+        <div class="card">
+          <h3>5. Liability limits</h3>
+          <p>MySkillSwapNow is not responsible for injuries, damages, losses, theft, or poor workmanship arising from agreements between users.</p>
+        </div>
+
+        <div class="card">
+          <h3>6. Safety-sensitive categories require more trust</h3>
+          <p>Childcare, rides, emergency help, and equipment lending may require extra verification, confirmed identity, or verified-device protections.</p>
+        </div>
+      </div>
+
+      <label class="checkline">
+        <input id="agreeBox" type="checkbox" />
+        <span>I understand this app connects users, but I am responsible for the agreements I make with other users.</span>
+      </label>
+
+      <label class="checkline">
+        <input id="policyBox" type="checkbox" />
+        <span>I understand disputes should be handled through ratings, reports, and platform dispute tools, and that the platform does not guarantee service outcomes.</span>
+      </label>
+
+      <div class="actions">
+        <button id="continueBtn" disabled>Agree and Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <div class="brand">MySkillSwapNow</div>
+        <div class="sub">Skill trading, equipment sharing, and emergency help</div>
+      </div>
+      <button id="reviewBtn" class="ghost">Review rules</button>
+    </header>
+
+    <section class="hero">
+      <h2>Local activity near you</h2>
+      <p>Seeded activity helps prevent the empty marketplace problem for new users.</p>
+    </section>
+
+    <section class="grid">
+      <div class="tile">
+        <h3>Need help fixing fence</h3>
+        <p>2 miles away · Request · 2 skill credits</p>
+      </div>
+      <div class="tile">
+        <h3>Offering HVAC repair</h3>
+        <p>3 miles away · Skill offer · Verified neighbor</p>
+      </div>
+      <div class="tile">
+        <h3>Tractor available for loan</h3>
+        <p>8 miles away · Equipment · Deposit required</p>
+      </div>
+      <div class="tile">
+        <h3>Dog walking request</h3>
+        <p>1 mile away · Request · 1 skill credit</p>
+      </div>
+      <div class="tile">
+        <h3>Pressure washer available</h3>
+        <p>4 miles away · Equipment · Cash or credits</p>
+      </div>
+      <div class="tile">
+        <h3>Emergency generator help</h3>
+        <p>6 miles away · Emergency help · Priority alerts</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
